@@ -1,0 +1,55 @@
+body,html {
+    overflow: hidden;
+}
+body {
+    background-color: #f8f9fa;
+    overflow: hidden;
+}
+ul.navbar-nav{
+    text-align: center;
+}
+a.nav-link{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.Cform{
+    margin-top: 3%;
+    width: 50%;
+}
+#registration input{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ccc;
+}
+#registration input:focus{
+    outline:none;
+    border-color:#5bc0de;
+}
+@media screen and (max-width: 1440px) {
+    .Cform{
+        margin-top: 3%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .Cform{
+        margin-top: 3%;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 720px) {
+    .Cform{
+        margin-top: 7%;
+        width: 50%;
+    }
+    .card{
+        width: 350px;
+        margin-left: -85px;
+    }
+    .container {
+        margin-top: 20%;
+    }
+}
+button{
+    float: right;
+}

@@ -1,0 +1,80 @@
+body,
+html {
+    height: 100%;
+    overflow: hidden;
+}
+.Cform{
+    position: relative;
+    margin-top:5%;
+}
+.Alogo{
+    width: 5%;
+    height: 5%;
+    object-fit:contain;
+}
+.navbar-brand{
+    color:#ffffff !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+h3 {
+    color: white;
+}
+#map{
+   position: relative;
+   height: 500px;
+   width: 800px;
+}
+.card{
+    width: 800px;
+    box-shadow:
+    0 0 8px 28px #fff,
+    0 0 8px 18px #D22B2B,
+    0 0 10px 23px #D2042D;
+}
+.bbtn{
+    float: left;
+}
+#btnRefresh{
+    float: right;
+}
+@media screen and (max-width: 1366px) {
+    .card{
+        height: 500px;
+    }
+    #map{
+        position: relative;
+        height: 500px;
+        width: 800px;
+     }
+     .bbtn{
+         float: left;
+     }
+     #btnRefresh{
+        float: right;
+    }
+}
+@media screen and (max-width: 720px){
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    html, body, #map {
+        height: 100%;
+        width: 97vw;
+    }
+    .card{
+        width: 395px;
+        height: 700px;
+    }
+    .Cform{
+        position: relative;
+        margin-top:15%;
+    }
+     .bbtn{
+         float: left;
+     }
+     #btnRefresh{
+        float: right;
+    }
+}

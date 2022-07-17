@@ -1,0 +1,20 @@
+Panel's want to add to the system:
+-distribution of equipments
+-process of monitoring
+-transaction log
+-generate report - in land area
+-generate report - inventory supplies
+[=====================================================================================================================]
+required php version: 7.4.25
+phpmyadmin version: 5.1.1
+xampp link windows: https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.25/
+xampp link Linux: https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/7.4.25/
+[=====================================================================================================================]
+How to install:
+1. start the localhost server.
+2. copy/unzip the system to htdocs.
+3. go to phpmyadmin database and create database named "city agriculture".
+4. click import in the navigation bar.
+5. upload sql file from "City Agriculture/db/" and enter
+6. open the system in the browser to see the system web interface.
+*type localhost then select "City Agriculture" to open the system or "127.0.0.1".

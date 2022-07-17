@@ -1,0 +1,46 @@
+body,
+html {
+    height: 100%;
+}
+body{
+    background-color: #ffffff;
+}
+.conti{
+    margin-top: 4%;
+    width: 90%;
+}
+.profile {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.imgplat i  {
+    top: 1%;
+    left: 60%;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 8px 3px #B8B8B8;
+  }
+  .imgplat{
+   width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #FFFFFF;
+    box-shadow: 0 0 8px 3px #B8B8B8;
+    position: relative;
+  }
+  .deta{
+        text-align: center;
+  }
+
+ @media print and (width: 8.5in) and (height: 13in) {
+    @page {
+        margin: 1in;
+    }
+ }

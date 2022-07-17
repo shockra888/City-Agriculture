@@ -1,0 +1,127 @@
+body,
+html {
+    height: 100%;
+}
+body {
+    background-color: #f8f9fa;
+}
+.Alogo{
+    width: 5%;
+    height: 5%;
+    object-fit:contain;
+}
+.navbar-brand{
+    display: inline-block;
+    color:#ffffff !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    transition: transform 0.8s;
+}
+.ml2:hover{
+    -webkit-transform: rotateX(360deg);
+   -moz-transform: rotateX(360deg);
+   -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+ul.navbar-nav{
+    text-align: center;
+}
+a.nav-link{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.info{
+    margin-top: 7%;
+}
+div.jumb1{
+     background-image: url("Assets/images/2.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+div.jumb2{
+     background-image: url("Assets/images/1.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+div.jumb3{
+     background-image: url("Assets/images/3.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+div.jumb4{
+     background-image: url("Assets/images/4.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+h3, h2.text{
+    color: #ffffff !important;
+}
+.btnn{
+    float: left !important;
+}
+.ml16{
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: #000000 !important;
+}
+a.linker{
+    text-decoration: none;
+    color: #ffffff !important;
+}
+.fa-cog{
+    color: #ffffff;
+}
+.conts-bin{
+    margin-top: 5%;
+}
+.alink{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    font-size: large;
+    transition: transform 0.8s;
+}
+.alink:hover{
+    background-color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 40px;
+}
+.ditem{
+    text-decoration: none;
+    color:#000000;
+    font-size: large;
+    transition: transform 0.8s;
+}
+.ditem:hover{
+    color:#ffffff;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+.navbar-nav > li{
+    padding-left:15px;
+    padding-right:15px;
+  }
+@media screen and (max-width: 720px){
+    .Alogo{
+    width: 10%;
+    height: 10%;
+    object-fit:contain;
+    }
+
+    .nav-item{
+        display: inline;
+        float: none;
+        margin-right: 4%;
+    }
+
+    .conts-bin{
+        margin-top: 10%;
+    }
+}

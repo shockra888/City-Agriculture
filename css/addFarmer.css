@@ -1,0 +1,105 @@
+body,html {
+    height: 100%;
+}
+body {
+    background-color: #f8f9fa;
+    overflow: hidden;
+}
+.Cform{
+    margin-top: 2%;
+}
+.card{
+    height: 465px;
+}
+.card-body{
+    height: 380px;
+    background-color: #efefef;   
+    overflow-y: scroll;
+}
+.errorM{
+    color: red;
+}
+input[type=radio] {
+    width: 30px;
+    height: 2em;
+}
+.btn-back{
+    float: left;
+}
+.btn-up{
+    float:right;
+}
+#registration input{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ccc;
+}
+#registration input:focus{
+    outline:none;
+    border-color:#5bc0de;
+}
+@media screen and (max-width: 720px) {
+    .navbar-brand{
+        color:#ffffff !important;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+    }
+    .Alogo{
+        width: 10%;
+        height: 10%;
+    }
+
+    .Cform{
+        margin-top: 4%;
+    }
+    .card{
+        height: 650px;
+    }
+    .card-body{
+        background-color: #efefef;
+        height:1220px;
+        overflow-y: scroll;
+    }
+    .btn-back{
+        float: left;
+    }
+    .btn-up{
+        float: right;
+        color: white;
+        margin-top: -10%;
+    }
+}
+@media screen and (min-width: 1360px) and (max-width: 1366px){
+    body {
+        background-color: #f8f9fa;
+        
+    }
+    .Cform{
+        margin-top: 1%;
+    }
+    .card{
+        height: 470px;
+    }
+    .card-body{
+        height: 300px;
+        background-color: #efefef;   
+        overflow-y: scroll;
+    }
+}
+@media screen and (min-width: 1400px) and (max-width: 1440px){
+    body {
+        background-color: #f8f9fa;
+        overflow: hidden;
+    }
+    .Cform{
+        margin-top: 2%;
+    }
+    .card{
+        height: 560px;
+    }
+    .card-body{
+        height: 120px;
+        background-color: #efefef;   
+        overflow-y: scroll;
+    }
+}

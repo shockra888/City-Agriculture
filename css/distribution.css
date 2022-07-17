@@ -1,0 +1,63 @@
+body,html {
+    height: 100%;
+}
+body {
+    background-color: #f8f9fa;
+}
+.Alogo{
+    width: 5%;
+    height: 5%;
+    object-fit:contain;
+}
+.navbar-brand{
+    color:#ffffff !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+ul.navbar-nav{
+    text-align: center;
+}
+a.nav-link{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+.nav-item:hover{
+    font-size: xx-large;
+    text-decoration: none;
+}
+.Cform{
+    margin-top: 6%;
+    width: 50%;
+}
+.ui-menu-item .ui-menu-item-wrapper.ui-state-active {
+    background: #df4759 !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+}
+#registration input{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ccc;
+}
+#registration input:focus{
+    outline:none;
+    border-color:#5bc0de;
+} 
+@media  screen and (max-width: 720px) {
+    .navbar-brand{
+        color:#ffffff !important;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+    }
+    .Alogo{
+        width: 10%;
+        height: 10%;
+    }
+
+    .Cform{
+        margin-top: 9%;
+    }
+}
+button{
+    float: right;
+}
